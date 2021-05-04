@@ -8,6 +8,8 @@ public class Addition {
 		obj.additionMethod(5, 6);
 		obj.additionMethod(9, 0, 8);
 		obj.additionMethod(0, 3, 5, 7);
+		System.out.println("Theese are results ");
+		
 	}
 
 	public int additionMethod(int a, int b) {
