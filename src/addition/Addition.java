@@ -7,6 +7,7 @@ public class Addition {
 		Addition obj = new Addition();
 		obj.additionMethod(5, 6);
 		obj.additionMethod(9, 0, 8);
+		obj.additionMethod(0, 3, 5, 7);
 	}
 
 	public int additionMethod(int a, int b) {
@@ -20,6 +21,13 @@ public class Addition {
 		int total = x + y + z;
 		System.out.println("result is " + total);
 		return total;
+
+	}
+	
+	public int additionMethod(int a1, int a2, int a3,int a4) {
+		int subtotal = a1 + a2 + a3+ a4;
+		System.out.println("result is " + subtotal);
+		return subtotal;
 
 	}
 }
